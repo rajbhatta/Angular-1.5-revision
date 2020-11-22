@@ -1,5 +1,5 @@
 ## How to register a controller to a module? ##
-```html
+```js
 //Step 1: Create a module
 var myApp=angular.module("myModule",[]);
 

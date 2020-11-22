@@ -1,5 +1,10 @@
 ## How is component in Angular JS? ##
-- Component is a resuable html or section. For example <movie-list> is a component below.
+- Component is a resuable html or section. For example 
+```js
+<movie-list>
+```
+ is a component below.
+
 ```js
 <div class="container">
         <movie-list></movie-list>

@@ -40,3 +40,18 @@ myApp.controller("emp", function($scope){
 </body>
 </html>
 ```
+
+## How to inspect from browser? ##
+- Goto chrome
+- Inspect elements
+- Console
+- Type angular
+- Type element($0) means give me angular representation of highlighted elements
+- Type scope() means give me scope
+- If we expand b then we can see message such as "Hello Raj"
+
+<img src="img/Inspection.png">
+
+
+## References ##
+https://www.youtube.com/watch?v=FDhGmFul4YU

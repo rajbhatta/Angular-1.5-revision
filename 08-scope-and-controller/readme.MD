@@ -61,3 +61,46 @@ myApp.controller("emp", function($scope){
 <img src="img/Inspection3.png">
 
 
+## How to use scope with multiple function inside controller? ##
+1. Inside script.js
+```js
+//Step 1: Create a module
+var myApp=angular.module("myModule",[]);
+
+myApp.controller("emp", function ($scope,$log){
+
+    //1st function
+    $scope.search = function () {
+        $log.log('Hello search is clicked')
+    };
+
+    //2nd function
+    $scope.click = function () {
+        $log.log('Hello table is clicked')
+    };
+
+})
+```
+
+2. Inside index.html file
+```html
+<html ng-app="myModule">
+<body>
+
+    <div ng-controller="emp">
+        {{search()}}
+        {{click()}}
+    </div>
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="script/script.js"></script>
+    
+</body>
+</html>
+```
+
+
+
+
+

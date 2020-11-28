@@ -52,6 +52,10 @@ myApp.controller("emp", function($scope){
 
 <img src="img/Inspection.png">
 
+## How to modify value of scope from Chrome console ? ##
+<ims src="img/Inspection2.png">
 
-## References ##
-https://www.youtube.com/watch?v=FDhGmFul4YU
+- Once this step is complete:
+<img src="img/Inspection3.png">
+
+

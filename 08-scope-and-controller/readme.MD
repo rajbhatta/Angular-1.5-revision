@@ -1,6 +1,6 @@
 ## What is scope and controller? ##
 - Controller contains all the definition of the data as show below:
-<img src="img/control1.png>
+<img src="img/control1.png">
 
 - Once data definition is defined inside controller, we must instatiate the controller to access the data such as:
 ```js

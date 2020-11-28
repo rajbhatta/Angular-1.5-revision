@@ -58,6 +58,6 @@ myApp.controller("emp", function($scope){
 
 - Once this step is complete:
 
-<img src="img/Inspection3.png">
+<img src="img/Inspection2.png">
 
 

@@ -1,0 +1,15 @@
+
+.left-nav,.right-nav{
+    float:left; 
+ }
+ .right-nav{
+   margin-left:20px;
+ }
+ a{
+   cursor:pointer; 
+ }
+
+
+.modal-header {
+text-align: center;
+}
